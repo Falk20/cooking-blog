@@ -4,5 +4,22 @@
 }
 
 body{
+    margin: 0;
     font-family: Houschka;
+    .cooking-header {
+        margin: 0;
+        ul {
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+            background: greenyellow;
+        }
+        li {
+            list-style: none;
+            cursor: pointer;
+            padding: 5px;
+            background: lightgreen;
+
+        }
+    }
 }
